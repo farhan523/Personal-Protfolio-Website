@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color:black;
+    min-height:80px;
+    max-height: 130px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    color:#55198b;
+}
+
+.navbar ul{
+    list-style: none;
+    width: 220px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* padding-left:25px; */
+}
+
+.navbar ul li{
+    color:white;
+    font-size: 18px;
+    padding-bottom: 0px;
+    cursor:pointer;
+}
+
+.navbar ul li:hover{
+    border-bottom: 2px solid white;
+}
+
+.header{
+    height:100vh;
+    /* border:2px solid red; */
+    font-family: "Varela Round",sans-serif;
+
+}
+
+.header .left{
+    height:100vh;background-color:#272327;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+.header .left .content{
+    padding:30px;
+}
+
+.header .right{
+    height:100vh;
+    background-color:#272327;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+.welcome-content {
+    color: grey;
+    margin:0.47em 0 0.47em 0;
+  
+}
+
+.main-content {
+    font-size: 4rem;
+    color: white;
+    margin:0.67em 0 0.67em 0;
+}
+
+.loc{
+    color: white;
+    margin:0.67em 0 0.67em 0;
+}
+
+.image img{
+    width:70%;
+    height:70%;
+}
+
+.image{
+    width:90%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hand {
+    display: inline-block;
+    margin: 0.9rem;
+    cursor: pointer;
+  }
+
+  #xc{
+      font-size:50px
+  }
+
+  .contact-btn {
+    margin-right: 1rem;
+}
+
+  .button {
+    background-color: #55198b;
+    border: 1px solid #55198b;
+    color: #fff;
+    font-weight: 700;
+    min-width: 200px;
+    padding: 13px 22px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    outline: none;
+    margin-top: 1.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out 0s;
+  }
+
+  @media(max-width:768px){
+    #xc{
+        font-size:34px
+    }
+    .contact-btn {
+        margin-right: 0rem;
+    }
+
+    .button {
+        
+        min-width: 100%;
+       
+      }
+
+      .main-content {
+        font-size: 3.2rem;
+        color: white;
+        margin: 0.17em 0 0.67em 0;
+    }
+   
+  }
+
+ 
+
+  /* services */
+
+  .services {
+      height:100vh;
+      font-family: "Varela Round",sans-serif;
+      text-align: center;
+      padding-top: 120px;
+  }
+
+  .services .container{
+      width:80vw;
+      height:40%;
+      border:2px solid red;
+      margin: 100px auto;
+      /* display: flex;
+      justify-content:space-around;
+      flex-wrap: wrap; */
+
+  }
+
+  .card{
+      
+      height:200px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    
+      border-radius:20px;
+      margin-bottom:20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin-left: 50px; */
+  }
+
+  .card i{
+      font-size:40px;
+  }
+
+  /* protfolio */
+
+  .protfolio{
+      min-height:100vh;
+      font-family: "Varela Round",sans-serif;
+      text-align: center;
+      padding-top: 120px;
+      max-height: fit-content;
+  }
+
+  .card2{
+      height:370px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+      border-radius:3px; 
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-bottom: 40px;
+  }
+
+  .cimage{
+      height:70%;
+  }
+
+/* contact */
+
+.contact{
+    min-height:80vh;
+    text-align: center;
+    padding-top: 120px;
+    max-height: fit-content;
+}
+
+.contact h1{
+    margin-bottom:100px;
+}
+
+.contact-card{
+    height:200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+.contact-card i{
+    font-size:30px;
+    color:#F35166;
+    
+}
+
+.footer{
+    height:80px;
+    background-color:black;
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+}
+
+
+  @media(max-width:998px){
+    .header{
+        height:200vh;
+    }
+    .services {
+        height: 130vh;}
+  }
