@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    
+    scroll-behavior: smooth;
     box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -37,6 +41,11 @@
     font-size: 18px;
     padding-bottom: 0px;
     cursor:pointer;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:white;
 }
 
 .navbar ul li:hover{

@@ -16,7 +16,7 @@ function Protfolio() {
     }, [])
 
     return (
-        <div className="protfolio" data-aos="zoom-in-up">
+        <div className="protfolio" data-aos="zoom-in-up" id="protfolio">
             <h1 style={{ marginBottom: 120 }}>Projects I Have Built</h1>
             <Grid container fluid maxWidth="lg" spacing={0} justifyContent="space-around">
                 <Grid item xs={10} sm={3} md={3} >

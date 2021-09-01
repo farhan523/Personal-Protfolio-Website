@@ -4,7 +4,7 @@ import ContactCard from './ContactCard'
 
 function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <h1>Contact</h1>
             <Grid container fluid maxWidth="lg" spacing={0} justifyContent="space-around">
                 <Grid item xs={10} sm={4} md={3} >

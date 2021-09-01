@@ -21,7 +21,7 @@ function Services() {
 
 
     return (
-        <div className="services" data-aos="zoom-in" >
+        <div className="services" data-aos="zoom-in" id="services">
             <h1 style={{ marginBottom: 140 }}>Services I Provide</h1>
             <Grid container fluid maxWidth="lg" spacing={0} justifyContent="space-around">
                 <Grid item xs={10} md={5} lg={4}>
